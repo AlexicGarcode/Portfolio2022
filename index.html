@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/taco.png">
+    <title>Vicente Garcia</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Vicente Garcia</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Home</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">About me</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Services</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">Portfolio</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.youtube.com/channel/UCJFGF_L9U3Gc5bGPQ2VSDjQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/vicente-garcia-web-development/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.tiktok.com/@hithis.is.chente" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://github.com/AlexicGarcode" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Hi I'm</p>
+                <h2><span>Vicente Garcia</span> <br>Full Stack Web Developer</h2>
+                <p class="descripcion">Let's take your company to the next level</p>
+                <a href="#portfolio">My Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">About Me</p>
+            <h2>I'm <span>Vicente Garcia</span> </h2>
+            <h3>Full Stack Web Developer</h3>
+            <p>I'm a committed man that is always looking to improve. I believe that communication is key that is why I always ensure to listen carefully to the customer</p>
+            <p>I love how technology shapes our lives and I love being part of that.</p>
+            <a href="https://docs.google.com/document/d/1X5k_Ej6P07yCd0Z5XeLoGyXpJ5uT7Iq0/edit?usp=sharing&ouid=109775645636491217582&rtpof=true&sd=true">Download CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Services</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Frontend Web Development</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                </ul>
+                <p>From a single landing page to a fullstack website</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Backend <br> development</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>MongoDB</li>
+                    <li>FireBase</li>
+                    <li>Node</li>
+                </ul>
+                <p>I will design and provide maintenance to your current data base</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Community Management</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Comments</li>
+                    <li>Reviews</li>
+                    <li>Campaings</li>
+                </ul>
+                <p>I will make sure your company stays on top of its community needs for your multiple SM accounts</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Content Creation</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Video Editing</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Virtual Assistance</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+    </section>
+
+  
+    <!-- SECCION PORTAFOLIO -->
+    <div class="contenedor-skills" id="skills">
+        <section id="portfolio" class="contenedor-skills" id="skills">
+            <h3 class="titulo-seccion">Projects</h3> <br>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <a href="https://alexicgarcode.github.io/LandingPage-LatinDevs/" target="_blank"><img src="img/proyecto1.png" alt=""></a>
+                    <div class="info">
+                        <h4>Landing Page</h4>
+                        <p>Remote Developers</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <a href="https://alexicgarcode.github.io/toDoList/" target="_blank"><img src="img/proyecto2.png" alt=""></a>
+                    <div class="info">
+                        <h4>CRUD</h4>
+                        <p>To Do list</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <a href="https://alexicgarcode.github.io/DashboardApp/" target="_blank"><img src="img/proyecto3.png" alt=""></a>
+                    <div class="info">
+                        <h4>Dashboard App</h4>
+                        <p>Pokemon API</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <a href="https://alexicgarcode.github.io/RestaurantApp/" target="_blank"><img src="img/proyecto4.png" alt=""></a>
+                    <div class="info">
+                        <h4>Descripcion Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto5.png" alt="">
+                    <div class="info">
+                        <h4>eCommerce Website</h4>
+                        <p>MERN Stack</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto6.png" alt="">
+                    <div class="info">
+                        <h4>Descripcion Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            
+                
+                
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Let's Work together</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Name *" class="input-mitad">
+                    <input type="email" placeholder="Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Subject" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Thie magic starts here..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="send" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>©Vicente Garcia Full Stack Developer - All rights reserved 2022</p>
+        <div class="redes">
+            <a href="https://www.youtube.com/channel/UCJFGF_L9U3Gc5bGPQ2VSDjQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/vicente-garcia-web-development/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.tiktok.com/@hithis.is.chente" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://github.com/AlexicGarcode" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
