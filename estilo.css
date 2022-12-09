@@ -46,12 +46,13 @@
             list-style: none;
             display: flex;
             align-items: center;
+            font-size: 20px;
         }
         
         #inicio .contenido header .contenido-header nav ul li a {
             text-decoration: none;
             color: #fff;
-            margin: 0 12px;
+            margin: 0 10px;
             font-weight: 400;
             transition: .5s;
         }
@@ -88,7 +89,7 @@
         }
         
         #inicio .contenido .presentacion .bienvenida {
-            font-size: 16px;
+            font-size: 40px;
             margin-bottom: 20px;
             text-transform: uppercase;
             letter-spacing: 5px;
@@ -223,7 +224,7 @@
         
         #servicios .titulo-seccion {
             text-align: center;
-            font-size: 22px;
+            font-size: 25px;
             text-transform: uppercase;
             color: #111135;
             text-decoration: underline;
@@ -399,7 +400,7 @@
         
         #portfolio .titulo-seccion {
             text-align: center;
-            font-size: 80px;
+            font-size: 45px;
             text-transform: uppercase;
             color: whitesmoke;
             text-decoration: underline;
